@@ -1,0 +1,61 @@
+/* App.css */
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+header {
+  width: 250px; /* Ορίζουμε πλάτος για το μενού */
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Διασφαλίζει ότι τα στοιχεία θα τοποθετηθούν σωστά */
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ορίζει απόσταση μεταξύ των στοιχείων */
+  height: 100%; /* Ορίζει ύψος για το μενού */
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li {
+  margin: 10px 0;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-list a:hover {
+  background-color: #575757;
+}
+
+/* Κείμενο στο κάτω μέρος του μενού */
+footer {
+  margin-top: auto;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+main {
+  flex: 1; /* Το υπόλοιπο περιεχόμενο καταλαμβάνει το υπόλοιπο του χώρου */
+  padding: 20px;
+}

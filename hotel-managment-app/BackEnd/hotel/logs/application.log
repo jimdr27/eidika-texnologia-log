@@ -1,0 +1,167 @@
+2025-02-17 19:48:06.952  INFO 7792 --- [main] com.example.hotel.HotelApplication       : Starting HotelApplication using Java 23.0.2 on PC with PID 7792 (C:\Data\Υπολογιστής\Εργασία Πρεζ\hotel-managment-app (7)\hotel-managment-app\BackEnd\hotel\target\classes started by User in C:\Data\Υπολογιστής\Εργασία Πρεζ\hotel-managment-app (7)\hotel-managment-app\BackEnd\hotel)
+2025-02-17 19:48:06.960  INFO 7792 --- [main] com.example.hotel.HotelApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-17 19:48:07.624  INFO 7792 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 19:48:07.672  INFO 7792 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+2025-02-17 19:48:08.101  INFO 7792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-17 19:48:08.109  INFO 7792 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-17 19:48:08.109  INFO 7792 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-02-17 19:48:08.209  INFO 7792 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-17 19:48:08.210  INFO 7792 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1180 ms
+2025-02-17 19:48:08.428  INFO 7792 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 19:48:08.479  INFO 7792 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2025-02-17 19:48:08.610  INFO 7792 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-17 19:48:08.696  INFO 7792 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-17 19:48:08.822  INFO 7792 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-17 19:48:08.835  INFO 7792 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-02-17 19:48:09.364  INFO 7792 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-17 19:48:09.369  INFO 7792 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 19:48:09.673  WARN 7792 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 19:48:09.758 DEBUG 7792 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-17 19:48:09.819 DEBUG 7792 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2025-02-17 19:48:09.833 DEBUG 7792 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-17 19:48:09.843 DEBUG 7792 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-17 19:48:09.951  INFO 7792 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-02-17 19:48:09.980  INFO 7792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-17 19:48:09.986  INFO 7792 --- [main] com.example.hotel.HotelApplication       : Started HotelApplication in 3.368 seconds (JVM running for 3.667)
+2025-02-17 19:48:43.733  INFO 7792 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-17 19:48:43.733  INFO 7792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-17 19:48:43.734 DEBUG 7792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-02-17 19:48:43.734 DEBUG 7792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-02-17 19:48:43.734 DEBUG 7792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-02-17 19:48:43.735 DEBUG 7792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@320efff5
+2025-02-17 19:48:43.735 DEBUG 7792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7c460
+2025-02-17 19:48:43.736 DEBUG 7792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='true': request parameters and headers will be shown which may lead to unsafe logging of potentially sensitive data
+2025-02-17 19:48:43.736  INFO 7792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-17 19:48:43.743 DEBUG 7792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : OPTIONS "/admin/login", parameters={}
+2025-02-17 19:48:43.748 DEBUG 7792 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.AdminController#login(AdminLoginRequest)
+2025-02-17 19:48:43.759 DEBUG 7792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-17 19:48:43.770 DEBUG 7792 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/admin/login", parameters={}
+2025-02-17 19:48:43.771 DEBUG 7792 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.AdminController#login(AdminLoginRequest)
+2025-02-17 19:48:43.831 DEBUG 7792 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.hotel.dto.AdminLoginRequest@1b6e20ac]
+2025-02-17 19:48:43.836 DEBUG 7792 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2025-02-17 19:48:43.837 DEBUG 7792 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Επιτυχής σύνδεση!"]
+2025-02-17 19:48:43.839 DEBUG 7792 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-17 19:48:43.845 DEBUG 7792 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/admin/reservations", parameters={}
+2025-02-17 19:48:43.846 DEBUG 7792 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.AdminController#getReservations()
+2025-02-17 19:48:43.943 DEBUG 7792 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2025-02-17 19:48:43.944 DEBUG 7792 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.example.hotel.entity.Reservation@469aa2a2, com.example.hotel.entity.Reservation@3517e5b1, com.e (truncated)...]
+2025-02-17 19:48:43.956 DEBUG 7792 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-17 19:48:43.958 DEBUG 7792 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/admin/reservations", parameters={}
+2025-02-17 19:48:43.959 DEBUG 7792 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.AdminController#getReservations()
+2025-02-17 19:48:43.966 DEBUG 7792 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2025-02-17 19:48:43.967 DEBUG 7792 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.example.hotel.entity.Reservation@3322f38b, com.example.hotel.entity.Reservation@f042f74, com.ex (truncated)...]
+2025-02-17 19:48:43.968 DEBUG 7792 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-17 20:08:38.791  INFO 7792 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 20:08:38.793  INFO 7792 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-02-17 20:08:38.802  INFO 7792 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-02-17 20:18:37.785  INFO 21760 --- [main] com.example.hotel.HotelApplication       : Starting HotelApplication using Java 23.0.2 on PC with PID 21760 (C:\Data\Υπολογιστής\Εργασία Πρεζ\hotel-managment-app_final\hotel-managment-app\BackEnd\hotel\target\classes started by User in C:\Data\Υπολογιστής\Εργασία Πρεζ\hotel-managment-app_final\hotel-managment-app\BackEnd\hotel)
+2025-02-17 20:18:37.788  INFO 21760 --- [main] com.example.hotel.HotelApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-02-17 20:18:38.469  INFO 21760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-02-17 20:18:38.517  INFO 21760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 3 JPA repository interfaces.
+2025-02-17 20:18:38.955  INFO 21760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-02-17 20:18:38.963  INFO 21760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-02-17 20:18:38.963  INFO 21760 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2025-02-17 20:18:39.060  INFO 21760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-02-17 20:18:39.061  INFO 21760 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1212 ms
+2025-02-17 20:18:39.256  INFO 21760 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-02-17 20:18:39.291  INFO 21760 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2025-02-17 20:18:39.402  INFO 21760 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-02-17 20:18:39.480  INFO 21760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-02-17 20:18:39.597  INFO 21760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-02-17 20:18:39.609  INFO 21760 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-02-17 20:18:40.130  INFO 21760 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-02-17 20:18:40.137  INFO 21760 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-02-17 20:18:40.440  WARN 21760 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-17 20:18:40.535 DEBUG 21760 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-02-17 20:18:40.595 DEBUG 21760 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2025-02-17 20:18:40.610 DEBUG 21760 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-02-17 20:18:40.619 DEBUG 21760 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-02-17 20:18:40.723  INFO 21760 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-02-17 20:18:40.752  INFO 21760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-02-17 20:18:40.760  INFO 21760 --- [main] com.example.hotel.HotelApplication       : Started HotelApplication in 3.313 seconds (JVM running for 3.648)
+2025-02-17 20:20:41.965  INFO 21760 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-17 20:20:41.965  INFO 21760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-02-17 20:20:41.967 DEBUG 21760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-02-17 20:20:41.967 DEBUG 21760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-02-17 20:20:41.967 DEBUG 21760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-02-17 20:20:41.968 DEBUG 21760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@584fb03d
+2025-02-17 20:20:41.968 DEBUG 21760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4407fea2
+2025-02-17 20:20:41.968 DEBUG 21760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='true': request parameters and headers will be shown which may lead to unsafe logging of potentially sensitive data
+2025-02-17 20:20:41.969  INFO 21760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-02-17 20:20:41.975 DEBUG 21760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : OPTIONS "/customers", parameters={}
+2025-02-17 20:20:41.979 DEBUG 21760 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.CustomerController#createCustomer(CustomerRequest, BindingResult)
+2025-02-17 20:20:41.991 DEBUG 21760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-17 20:20:41.999 DEBUG 21760 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/customers", parameters={}
+2025-02-17 20:20:42.000 DEBUG 21760 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.CustomerController#createCustomer(CustomerRequest, BindingResult)
+2025-02-17 20:20:42.043 DEBUG 21760 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.hotel.dto.CustomerRequest@1de154bd]
+2025-02-17 20:20:42.162 DEBUG 21760 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2025-02-17 20:20:42.163 DEBUG 21760 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Υπάρχει ήδη πελάτης με το συγκεκριμένο τηλέφωνο."]
+2025-02-17 20:20:42.165 DEBUG 21760 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2025-02-17 20:20:46.908 DEBUG 21760 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/customers", parameters={}
+2025-02-17 20:20:46.909 DEBUG 21760 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.CustomerController#createCustomer(CustomerRequest, BindingResult)
+2025-02-17 20:20:46.910 DEBUG 21760 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.hotel.dto.CustomerRequest@555284f8]
+2025-02-17 20:20:46.915 DEBUG 21760 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2025-02-17 20:20:46.915 DEBUG 21760 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Το τηλέφωνο πρέπει να αποτελείται από 10 αριθμητικά ψηφία χωρίς κενά ή σύμβολα."]
+2025-02-17 20:20:46.916 DEBUG 21760 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2025-02-17 20:20:54.702 DEBUG 21760 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/customers", parameters={}
+2025-02-17 20:20:54.703 DEBUG 21760 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.CustomerController#createCustomer(CustomerRequest, BindingResult)
+2025-02-17 20:20:54.704 DEBUG 21760 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.hotel.dto.CustomerRequest@3a697a06]
+2025-02-17 20:20:54.709 DEBUG 21760 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2025-02-17 20:20:54.709 DEBUG 21760 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Υπάρχει ήδη πελάτης με το συγκεκριμένο email."]
+2025-02-17 20:20:54.710 DEBUG 21760 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2025-02-17 20:21:06.720 DEBUG 21760 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/customers", parameters={}
+2025-02-17 20:21:06.721 DEBUG 21760 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.CustomerController#createCustomer(CustomerRequest, BindingResult)
+2025-02-17 20:21:06.722 DEBUG 21760 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.hotel.dto.CustomerRequest@390120fc]
+2025-02-17 20:21:06.782 DEBUG 21760 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2025-02-17 20:21:06.785 DEBUG 21760 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Customer{id=11, name='Michail Inglezos', email='email@gmail.com', phone='6949678665'}]
+2025-02-17 20:21:06.790 DEBUG 21760 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-17 20:21:24.653 DEBUG 21760 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : OPTIONS "/reservations", parameters={}
+2025-02-17 20:21:24.654 DEBUG 21760 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.ReservationController#createReservation(ReservationRequest, BindingResult)
+2025-02-17 20:21:24.655 DEBUG 21760 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-17 20:21:24.660 DEBUG 21760 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/reservations", parameters={}
+2025-02-17 20:21:24.660 DEBUG 21760 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.ReservationController#createReservation(ReservationRequest, BindingResult)
+2025-02-17 20:21:24.673 DEBUG 21760 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.hotel.controller.ReservationController$ReservationRequest@3d87c8f5]
+2025-02-17 20:21:24.702 DEBUG 21760 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2025-02-17 20:21:24.702 DEBUG 21760 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.example.hotel.entity.Reservation@266d263e]
+2025-02-17 20:21:24.704 DEBUG 21760 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-17 20:21:37.385 DEBUG 21760 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/reservations", parameters={}
+2025-02-17 20:21:37.386 DEBUG 21760 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.ReservationController#createReservation(ReservationRequest, BindingResult)
+2025-02-17 20:21:37.387 DEBUG 21760 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.hotel.controller.ReservationController$ReservationRequest@1088200a]
+2025-02-17 20:21:37.403 DEBUG 21760 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2025-02-17 20:21:37.403 DEBUG 21760 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [com.example.hotel.entity.Reservation@688f3e25]
+2025-02-17 20:21:37.405 DEBUG 21760 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-17 20:21:46.988 DEBUG 21760 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : OPTIONS "/admin/login", parameters={}
+2025-02-17 20:21:46.989 DEBUG 21760 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.AdminController#login(AdminLoginRequest)
+2025-02-17 20:21:46.990 DEBUG 21760 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-17 20:21:46.993 DEBUG 21760 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/admin/login", parameters={}
+2025-02-17 20:21:46.994 DEBUG 21760 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.AdminController#login(AdminLoginRequest)
+2025-02-17 20:21:46.996 DEBUG 21760 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.hotel.dto.AdminLoginRequest@2390b1c1]
+2025-02-17 20:21:46.997 DEBUG 21760 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2025-02-17 20:21:46.997 DEBUG 21760 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Επιτυχής σύνδεση!"]
+2025-02-17 20:21:46.998 DEBUG 21760 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-17 20:21:47.003 DEBUG 21760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/admin/reservations", parameters={}
+2025-02-17 20:21:47.004 DEBUG 21760 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.AdminController#getReservations()
+2025-02-17 20:21:47.024 DEBUG 21760 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2025-02-17 20:21:47.024 DEBUG 21760 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.example.hotel.entity.Reservation@12e17776, com.example.hotel.entity.Reservation@1b220075, com.e (truncated)...]
+2025-02-17 20:21:47.026 DEBUG 21760 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-17 20:21:47.028 DEBUG 21760 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/admin/reservations", parameters={}
+2025-02-17 20:21:47.029 DEBUG 21760 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.AdminController#getReservations()
+2025-02-17 20:21:47.038 DEBUG 21760 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2025-02-17 20:21:47.039 DEBUG 21760 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.example.hotel.entity.Reservation@23d71918, com.example.hotel.entity.Reservation@3021229b, com.e (truncated)...]
+2025-02-17 20:21:47.040 DEBUG 21760 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-17 20:21:51.445 DEBUG 21760 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : OPTIONS "/admin/reservations/19", parameters={}
+2025-02-17 20:21:51.446 DEBUG 21760 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.AdminController#deleteReservation(Long)
+2025-02-17 20:21:51.446 DEBUG 21760 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-17 20:21:51.449 DEBUG 21760 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : DELETE "/admin/reservations/19", parameters={}
+2025-02-17 20:21:51.450 DEBUG 21760 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.AdminController#deleteReservation(Long)
+2025-02-17 20:21:51.475 DEBUG 21760 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2025-02-17 20:21:51.475 DEBUG 21760 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Η κράτηση με ID 19 ακυρώθηκε."]
+2025-02-17 20:21:51.476 DEBUG 21760 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-17 20:24:50.065 DEBUG 21760 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : OPTIONS "/admin/reservations/4", parameters={}
+2025-02-17 20:24:50.066 DEBUG 21760 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.AdminController#deleteReservation(Long)
+2025-02-17 20:24:50.067 DEBUG 21760 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-02-17 20:24:50.069 DEBUG 21760 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : DELETE "/admin/reservations/4", parameters={}
+2025-02-17 20:24:50.069 DEBUG 21760 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.hotel.controller.AdminController#deleteReservation(Long)
+2025-02-17 20:24:50.085 DEBUG 21760 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2025-02-17 20:24:50.085 DEBUG 21760 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Η κράτηση με ID 4 ακυρώθηκε."]
+2025-02-17 20:24:50.086 DEBUG 21760 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
